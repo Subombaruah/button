@@ -1,109 +1,197 @@
-<style> 
-     .subscribe-button {
-     background-color: rgb(200, 0, 0);
-     color: white;
-     border: none;
-     border-radius: 5px;
-     width: 190px;
-     height: 50px; 
-     cursor: pointer;
-     transition: 0.35s;
-     margin-left: 200px;
-     font-size: 20px;
-     
-     
+<style>
+  table, td, th {
+  border: 1px solid rgba(0,0,0,0.8);
+  border-collapse: collapse;
+}
+  td, th {
+  padding: 4px;
+}
+  th {
+  text-align: left;
+}
+  * {
+    font-family: sans-serif;
   }
-.subscribe-button:hover{
-      background-color: rgb(200, 0, 0);
-        color: white;
-        box-shadow: 7px 7px 7px rgba(0,0,0,0.15);
-        width: 200px;
-        height: 70px;
-        font-size: 30px;
-        margin-left: 190px; 
-        margin-bottom: 0px;
-        } 
-        .subscribe-button:active {
-            font-size: 25px;
-              background-color:white; 
-              color: black;
-              
-              transition: 0.15s;
-       
-        }
-        .SUBOM {
-            font-family: Times New Roman;
-            font-size: 50px;
-            text-align: center;
-            margin-top: 0px;
-            letter-spacing: 2px;
-            background-color: yellow;
-            border-radius: 10px;
-             box-shadow: 15px 15px 15px rgba(0,0,0,0.15);
-            font-weight: bold;
-
-      
-        }
-        .formula{
-            font-size: 20px;
-            font-family: arial;
-            color: grey;
-            text-align: center;
-            letter-spacing: 2px;
-            line-height: 20px;
-            margin-left: 45px;
-            font-weight: bold;
-            margin-right: 0px;
-        }
-        .bell{
-            font-size: 40px;
-            text-align: center;
-            transition: 0.15s;
-            height: 30px;
-            
-        }
-         .bell:hover {
-            cursor:pointer;
-            box-shadow:  7px 7px 7px rgba(0,0,0,0.15);
-            border: none;
-            background-color: black;
-            color: white;
-            font-size: 60px;
-            margin-right: 10px;
-
-
-         }
-         .bell:active{
-            background-color: white;
-            color: grey;
-
-         }
-         .image {
-            image-align: center;
-            margin-left: 80px;
-            width: 300px;
-         }
-  
+  .result-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 </style>
-
-
-<p class="SUBOM"> 
-    I AM SUBOM BARUAH I AM WRITING HTML AND THEN CSS.
-    </p>
-    </p>
-    <div>
-<button class="subscribe-button",>
-SUBSCRIBE
-</button>
-<span class="bell">
-&#128276;
-</span>
-<p class="formula">
- GENERAL FORMULA<br>
-  1.Write the html<br>
-  2.Write the CSS
-</p>
-
-<img class="image" ,
-src="./image-1/2025-05-11_21_34_26-aSSIGNMENT_-_Infographic_-_Canva.png">
-
+<div class="result-container">
+<div style="max-width: 680px">
+<h1>Restaurants in Dibrugarh - Content Brief</h1>
+<br>
+<h2>✍️Content Overview</h2>
+<table>
+	<tr>
+    	<td>Title Tag (H1)</td>
+        <td>Top 15 Restaurants in Dibrugarh: Best Local & Ethnic Eateries</td>
+    </tr>
+    <tr>
+    	<td>Slug</td>
+        <td>restaurants-in-dibrugarh</td>
+    </tr>
+    <tr>
+    	<td>Meta Description</td>
+        <td>Discover the top 15 restaurants in Dibrugarh, from authentic Assamese eateries to biryani hotspots. Perfect guide for tourists & locals!</td>
+    </tr>
+    <tr>
+    	<td>Word Count</td>
+        <td>2000-2500</td>
+    </tr>
+    <tr>
+    	<td>Target Audience</td>
+        <td>Tourists and local diners seeking restaurant recommendations; decision-makers booking group dinners and couples looking for date spots.</td>
+	</tr>
+    <tr>
+    	<td>Search Intent</td>
+        <td>Informational/Transactional; MOFU (middle of the funnel) – users comparing options and planning visits.</td>
+    </tr>
+    <tr>
+    	<td>Page Format</td>
+        <td>List Post – “Top 15 Restaurants” with reviews, locations, cuisines, and practical details.</td>
+	</tr>
+</table>
+<br>
+<h2>🧐Heading Structure / Topics</h2>
+<ul>
+  <li>H1: Top 15 Restaurants in Dibrugarh</li>
+  <li>H2: Why Dibrugarh Is a Foodie’s Delight – context on tea-city culture and culinary diversity</li>
+  <li>H2: How to Use This Guide – tips on filtering by cuisine, budget, area, and ambiance</li>
+  <li>H2: 1. Azad Biryani Dibrugarh
+    <ul>
+      <li>H3: Location – Azad Market area</li>
+      <li>H3: Timings – 11 AM–11 PM</li>
+      <li>H3: Must-Try Dishes – Hyderabadi biryani, mutton korma</li>
+      <li>H3: Price – ₹300–₹500 per person</li>
+    </ul>
+  </li>
+  <li>H2: 2. Chakhum Ethnic Kitchen
+    <ul>
+      <li>H3: Location – Near Tea Garden Expressway</li>
+      <li>H3: Timings – 10 AM–10 PM</li>
+      <li>H3: Must-Try Dishes – Masor tenga, Khar, pitika</li>
+      <li>H3: Price – ₹250–₹400 per person</li>
+    </ul>
+  </li>
+  <li>H2: 3. Eat Repeat Multi-Cuisine Restaurant
+    <ul>
+      <li>H3: Location – Boiragimoth</li>
+      <li>H3: Timings – 9 AM–11 PM</li>
+      <li>H3: Must-Try Dishes – Butter chicken, veg platters</li>
+      <li>H3: Price – ₹350–₹550 per person</li>
+    </ul>
+  </li>
+  <li>H2: 4. GHI Tea Lounge
+    <ul>
+      <li>H3: Location – Near Tea Gardens</li>
+      <li>H3: Timings – 8 AM–8 PM</li>
+      <li>H3: Must-Try Dishes – Assam tea blends, tea-snack pairings</li>
+      <li>H3: Price – ₹150–₹300 per person</li>
+    </ul>
+  </li>
+  <li>H2: 5. ABC Café – Aesthetic Rooftop Dining
+    <ul>
+      <li>H3: Location – City Center, 3rd Floor</li>
+      <li>H3: Timings – 5 PM–12 AM</li>
+      <li>H3: Must-Try Dishes – Cocktails, continental appetizers</li>
+      <li>H3: Price – ₹500–₹800 for two</li>
+    </ul>
+  </li>
+  <li>H2: 6. VWX Family Dhaba
+    <ul>
+      <li>H3: Location – Bypass Road</li>
+      <li>H3: Timings – 7 AM–10 PM</li>
+      <li>H3: Must-Try Dishes – Dal makhani, naan, paratha</li>
+      <li>H3: Price – ₹100–₹200 per person</li>
+    </ul>
+  </li>
+  <li>H2: 7. PQR Bakery & Patisserie</li>
+  <li>H2: 8. STU Juice Bar</li>
+  <li>H2: 9. MNO Fine Dining</li>
+  <li>H2: 10. Mahamaya Restaurant</li>
+  <li>H2: 11. Ambrosia Café</li>
+  <li>H2: 12. Food Infinity</li>
+  <li>H2: 13. Chawla Restaurant</li>
+  <li>H2: 14. Destination Restaurant</li>
+  <li>H2: 15. Ryan’s Kitchen</li>
+  <li>H2: Area-Specific Picks
+    <ul>
+      <li>H3: Thana Chariali</li>
+      <li>H3: Chowkidingee</li>
+      <li>H3: Khaliamari</li>
+      <li>H3: Amolapatty</li>
+    </ul>
+  </li>
+  <li>H2: Tips for Tourists & Locals – best times, reservation advice, dietary notes</li>
+  <li>H2: Conclusion – summary and call to explore Dibrugarh’s dining scene</li>
+</ul>
+<br>
+<h2>📈Relevant Statistics</h2>
+<ul>
+  <li>Indian food service market was valued at INR 4,238 billion in 2020, projected to reach INR 6,211 billion by 2025 – underscores growth of dining-out culture (<a href="https://www.investindia.gov.in/">Invest India</a>)</li>
+  <li>Online food delivery revenue in India to hit US$21.36 bn in 2024 – shows digital ordering trend (<a href="https://www.statista.com/">Statista</a>)</li>
+  <li>408.7 million users expected in online food delivery by 2029 in India – highlights rising adoption (<a href="https://www.statista.com/">Statista</a>)</li>
+  <li>Assam tourist arrivals: 1.7 million domestic, 6,000 foreign in 2022 – opportunity for restaurants near attractions (<a href="https://tourism.assam.gov.in/">Assam Tourism</a>)</li>
+  <li>53% of Indian consumers dine out at least once a month – frequent demand for restaurant experiences (<a href="https://nrai.org/">NRAI</a>)</li>
+</ul>
+<br>
+<h2>🔑Semantic/Secondary Keywords</h2>
+biryani in dibrugarh, assamese restaurant dibrugarh, family restaurants in dibrugarh, rooftop restaurants in dibrugarh, veg restaurants dibrugarh, dhaba in dibrugarh, best biryani dibrugarh, ethnic restaurants dibrugarh, tea lounge dibrugarh, restaurants in thana chariali, restaurants in bypass dibrugarh, restaurants for couples dibrugarh, new restaurants dibrugarh, aesthetic restaurants dibrugarh, multi-cuisine restaurants dibrugarh, best cafes dibrugarh, fine dining dibrugarh, street food dibrugarh, juice bar dibrugarh, bakery dibrugarh
+<br>
+<h2>🖇️Entity Ideas</h2>
+<ul>
+  <li>Dibrugarh (city)</li>
+  <li>Assam Tea Gardens</li>
+  <li>Azad Biryani</li>
+  <li>Chakhum Ethnic Kitchen</li>
+  <li>GHI Tea Lounge</li>
+  <li>VWX Family Dhaba</li>
+  <li>Statista</li>
+  <li>Invest India</li>
+  <li>NRAI</li>
+  <li>Assam Tourism Department</li>
+</ul>
+<br>
+<h2>📊Table/Chart Ideas</h2>
+<ul>
+  <li>Comparison table of top 5 restaurants: cuisine type, price range, opening hours, location</li>
+  <li>Pie chart of cuisine distribution in Dibrugarh (Assamese vs. Mughlai vs. Chinese vs. Continental)</li>
+</ul>
+<br>
+<h2>💡EEAT Ideas</h2>
+<ul>
+  <li>Include author byline with local food journalist or Dibrugarh resident credentials</li>
+  <li>Embed first-person reviews or quotes from restaurant owners</li>
+  <li>Link to restaurant official websites or social profiles for authenticity</li>
+  <li>Reference up-to-date customer ratings from Google Maps/Zomato</li>
+</ul>
+<br>
+<h2>🔗Linking Opportunities</h2>
+<h3>External</h3>
+<ul>
+  <li><a href="https://www.investindia.gov.in/">Invest India – Food Service Market Report</a></li>
+  <li><a href="https://www.statista.com/">Statista – Online Food Delivery Revenue</a></li>
+  <li><a href="https://tourism.assam.gov.in/">Assam Tourism Department</a></li>
+  <li><a href="https://nrai.org/">NRAI – India Food Services Report</a></li>
+  <li><a href="https://www.google.com/maps">Google Maps – Restaurant Listings</a></li>
+</ul>
+<br>
+<h2>🖼️Media Ideas</h2>
+<ul>
+  <li>Map of Dibrugarh with marked restaurant locations</li>
+  <li>High-quality photos of signature dishes (biryani, masor tenga)</li>
+  <li>Interior shots of rooftop café and tea lounge</li>
+  <li>Infographic of “Top 5 Must-Try Cuisines”</li>
+</ul>
+<br>
+<h2>🧩Additional Information</h2>
+<ul>
+  <li>Dibrugarh is known as the “Tea City of India” – tie into tea-centric dining (<a href="https://tourism.assam.gov.in/">Assam Tourism</a>)</li>
+  <li>Local preference for ethnic Assamese dishes like khar and pitika</li>
+  <li>Many restaurants listed are available on Swiggy and Zomato for delivery</li>
+  <li>Seasonal festivals (Bihu) can affect restaurant hours and special menus</li>
+</ul>
+</div>
+</div>
